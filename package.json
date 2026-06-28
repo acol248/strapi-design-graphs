@@ -1,0 +1,45 @@
+{
+  "name": "strapi-design-graphs",
+  "version": "0.1.0",
+  "description": "A collection of graphs that make use of the Strapi Design System, for use in development of Strapi plugins.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch",
+    "lint": "eslint src"
+  },
+  "peerDependencies": {
+    "@strapi/design-system": "^1.0.0 || ^2.0.0",
+    "@strapi/icons": "^1.0.0 || ^2.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "recharts": "^2.0.0 || ^3.0.0",
+    "styled-components": "^6.0.0"
+  },
+  "devDependencies": {
+    "@strapi/design-system": "^2.2.0",
+    "@strapi/icons": "^2.2.0",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "prettier": "^3.8.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^2.0.0 || ^3.0.0",
+    "styled-components": "^6.4.2",
+    "typescript": "^5.9.3",
+    "vite": "^8.1.0",
+    "vite-plugin-dts": "^5.0.3"
+  }
+}

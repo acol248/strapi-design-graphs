@@ -1,0 +1,31 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+*.tgz
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+
+# Env files
+.env
+.env.*.local
+
+# Editor directories
+.vscode/
+.idea/
+
+# Misc
+.turbo/
+.cache/
+.eslintcache
